@@ -3,11 +3,11 @@ This repository contains a collection of markdown files aimed at providing a com
 
 1.Virtualization vs Container.md
 
-   •	What is virtualization?
+   • What is virtualization?
 
-   •	What are containers?
+   • What are containers?
 
-   •	Comparison between VMs and containers.
+   • Comparison between VMs and containers.
 2.Docker.md
 
    •	Overview of Docker.
@@ -38,9 +38,9 @@ This repository contains a collection of markdown files aimed at providing a com
 
 11.	Docker-compose.md
     
-   •	Introduction of the docker-compose
+   • Introduction of the docker-compose
 
-   •	docker-compose command
+   • docker-compose command
 
 Acknowledgments
 
