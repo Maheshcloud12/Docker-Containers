@@ -38,8 +38,7 @@ This repository contains a collection of markdown files aimed at providing a com
 
      • docker-compose command
 
-Acknowledgments
-________________________________________
+## Acknowledgments
 
  Special thanks to the Docker community and all the contributors and Youtubers who have shared their knowledge and resources.
 
