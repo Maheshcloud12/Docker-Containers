@@ -1,0 +1,47 @@
+## Virtualization:
+
+•	Virtualization is a technique of importing a Guest OS on the top of the host OS.
+
+•	This technique was a revelation at the at the beginning as it allowed developers to run multiple OS in different VMs on the same physical host.
+
+•	A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
+
+## Container:
+
+• A container is a standard unit of software that packages up code and all its dependencies, so the application runs quickly and reliably from one computing environment to another. Also, they can logically isolate the application and dependencies.
+
+• A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+## Container vs Virtual Machine:
+
+1. **Resource Utilization:** Containers share the host operating system kernel, making them lighter and faster than VMs. VMs have a full-fledged OS and hypervisor, making them more resource intensive.
+
+3. **Portability:** Containers are designed to be portable and can run on any system with a compatible host operating system. VMs are less portable as they need a compatible hypervisor to run.
+
+5. **Security:** VMs provide a higher level of security as each VM has its own operating system and can be isolated from the host and other VMs. Containers provide less isolation, as they share the host operating system.
+
+
+![image](https://github.com/gk-aws-dev/Docker/assets/154478305/cb8fc3f9-6060-481e-b985-d5ea4b8bd485)
+
+
+## Use Cases:
+**Containers:**
+•	Microservices architectures.
+•	Agile development and continuous integration/continuous deployment (CI/CD).
+•	Cloud-native applications.
+
+**Virtual Machines:**
+•	Legacy applications.
+•	Applications with strict security and compliance requirements.
+•	Environments requiring diverse operating systems.
+
+# Why container is light in weight?
+
+- Containers are lightweight because they use a technology called containerization, container base images are typically smaller compared to VM images because they are designed to be minimalist and only contain the necessary components for running a specific application or service.
+
+- VMs, on the other hand, emulate an entire operating system, including all its libraries, utilities, and system files, resulting in a much larger size.
+
+- Additionally, Docker containers are designed to be minimal, only including what is necessary for the application to run, further reducing their size.
+
+- Container base image having the minimal system dependency and logically isolate the application.
+  So all the required the dependency, system file are used from the container base image.
